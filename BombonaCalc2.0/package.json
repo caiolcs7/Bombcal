@@ -1,0 +1,10 @@
+{
+  "name": "bombonacalc-github-pages",
+  "version": "4.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check js/aplicacao.js && node --check js/interface.js && node --check js/armazenamento.js"
+  }
+}
